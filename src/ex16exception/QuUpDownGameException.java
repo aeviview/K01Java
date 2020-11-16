@@ -24,8 +24,8 @@ public class QuUpDownGameException
 		while(true)
 		{
 			int i = 0;
-			low = 0;
-			high = 99;
+			low = 1;
+			high = 100;
 			card = r.nextInt(100);
 			System.out.println("업다운 게임 시작!");
 			
